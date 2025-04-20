@@ -1,0 +1,16 @@
+#include <stdio.h>
+  #include <iostream>
+
+   int main() {
+      int edad;
+      std::cout << "ingrese su edad: " ;
+      std::cin >> edad;
+      
+      if (edad >=18) {
+        std::cout << "es usted mayor de edad." << std::endl;
+      }
+      else {
+        std::cout << "es usted menor de edad." << std::endl;
+      }
+      return 0;
+   }
